@@ -135,10 +135,9 @@ nav ul li a:hover {
  .hero-content .hero-buttons {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     gap: 15px;
     margin-top: 30px;
-     flex-wrap: wrap;
 }
 
 #get-started {
