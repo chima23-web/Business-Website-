@@ -2143,9 +2143,9 @@ footer #get-started i {
     flex-shrink: 0;
 }
 .why-client image  img {
-    width: 100%;
+    width: 38px;
     display: block;
-    height: 100%;
+    height: 38px;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -4312,8 +4312,8 @@ footer #get-started i {
 }
 
 .why-testimonial-card .client-image img {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     max-width: 100%;
     margin: 0 auto 15px;
     object-fit: cover;
