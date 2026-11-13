@@ -4212,7 +4212,114 @@ footer #get-started i {
     #cta-content #view-our-services {
         margin-bottom: 0;
     }
+    /* TESTIMONIAL SECTION */
+#testimonial-content {
+    width: 100%;
+    padding: 50px 6%;
+    box-sizing: border-box;
+}
 
+#testimonial-content > h2 {
+    font-size: 27px;
+    line-height: 1.3;
+}
+
+#testimonial-content > p:not(.eyebrow) {
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* TESTIMONIAL ARROWS */
+.testimonial-arrows {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin: 25px 0;
+}
+
+.testimonial-arrows button {
+    width: 45px;
+    height: 45px;
+    flex-shrink: 0;
+}
+
+/* TESTIMONIAL CARDS CONTAINER */
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    width: 100%;
+}
+
+/* INDIVIDUAL TESTIMONIAL CARD */
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 25px 20px;
+    box-sizing: border-box;
+}
+
+/* TESTIMONIAL TEXT */
+.testimonial-card > p {
+    width: 100%;
+    font-size: 15px;
+    line-height: 1.7;
+    overflow-wrap: break-word;
+    margin: 15px 0 20px;
+}
+
+/* CLIENT IMAGE */
+.testimonial-card .client-image {
+    width: 85px;
+    height: 85px;
+    flex-shrink: 0;
+    margin: 10px auto;
+}
+
+.testimonial-card .client-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+}
+
+/* CLIENT NAME */
+.testimonial-card h3 {
+    font-size: 17px;
+    line-height: 1.4;
+    margin: 10px 0 5px;
+    overflow-wrap: break-word;
+}
+
+/* CLIENT ROLE */
+.testimonial-card > span {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* STAR RATINGS */
+.testimonial-rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 12px;
+}
+
+
+
+
+
+
+
+    
 
     /* TESTIMONIALS */
     .testimonial-container {
