@@ -2113,6 +2113,11 @@ footer #get-started i {
 
 .why-testimonial-card {
     background-color: #ffffff;
+    width: 100%;
+    max-width: 350px;
+    min-width: 0;
+    box-sizing: border-box;
+    overflow: hidden;
     border: 1px solid #e5edf7;
     border-radius: 9px;
     padding: 14px 16px;
@@ -2128,9 +2133,18 @@ footer #get-started i {
     color: #f5b800;
     font-size: 10px;
 }
-.why-testimonial-card > img {
-    width: 38px;
-    height: 38px;
+.why-client-image {
+    width: 100px;
+    height: 100px;
+    min-width: 100px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 0 auto 15px;
+    flex-shrink: 0;
+.why-client image  img {
+    width: 100%;
+    display: block;
+    height: 100%;
     border-radius: 50%;
     object-fit: cover;
 }
@@ -4279,9 +4293,12 @@ footer #get-started i {
 /* TESTIMONIAL TEXT */
 .why-testimonial-card > p {
     width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    overflow-wrap: anywhere;
+    text-align: center;
     font-size: 15px;
     line-height: 1.7;
-    overflow-wrap: break-word;
     margin: 15px 0 20px;
 }
 
@@ -4294,8 +4311,10 @@ footer #get-started i {
 }
 
 .why-testimonial-card .client-image img {
-    width: 100%;
-    height: 100%;
+    width: 80px;
+    height: 80px;
+    max-width: 100%;
+    margin: 0 auto 15px;
     object-fit: cover;
     border-radius: 50%;
     display: block;
